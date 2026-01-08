@@ -11,32 +11,10 @@ html{
   margin-bottom: 0%;
 }
 
-nav{
-  margin: 0%;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);  
-  background-color: #1e1e24;
-  padding: 1.5%;
-}
-
 strong{
   font-size: 1.2em;
   font-weight: bold;
   color: #eabe6a;
-}
-
-nav ul {
-  margin: 0;
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: baseline;
-  font-size: 1.5em;
-}
-nav li {
-  font-weight: bold;
-  cursor: pointer;
-  margin-bottom: 0px;
 }
 
 .name {

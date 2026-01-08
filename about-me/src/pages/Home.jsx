@@ -1,7 +1,6 @@
 import '../styling/home.css'
 import placeholder from '../assets/placeholder_silhouette.png'
-import { Link } from 'react-router-dom'
-import Nav from '../modules/nav.jsx'
+import DownloadCV from '../modules/downloadCV.jsx'
 
 export default function Home() {
 
@@ -16,6 +15,7 @@ export default function Home() {
       <div className='landing-text'>
         <p>Motivated and results-driven software development graduate with an academic foundation in software development and cybersecurity. Proven leadership skills through managing teams professionally and within university work, as well as delivering a client-focused R&D project.</p>
         <p>I am currently an IT Service Desk Technician for Hallensteins Glassons Holdings, providing support to retail stores and head office users.</p>
+        <DownloadCV />
       </div>
       </div>
         <img className='landing-image' src={placeholder} alt='Placeholder'/>

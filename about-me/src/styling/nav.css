@@ -18,3 +18,8 @@ nav li {
   cursor: pointer;
   margin-bottom: 0px;
 }
+
+nav li a:hover {
+  color: #c09c59;
+  transition: color 0.5s ease;
+}

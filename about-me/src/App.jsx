@@ -8,18 +8,16 @@ import Nav from "./modules/nav";
 function App() {
   return (
     <>
-    {/* always display nav bar */}
-    <Nav />
-    {/* set routes for pages */}
-      <nav>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/projects" element={<Projects />} />
-        </Routes>
-      </nav>
-    
+      {/* always display nav bar */}
+      <Nav />
+      {/* set routes for pages */}
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
     </>
   );
 }

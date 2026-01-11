@@ -10,14 +10,16 @@ function App() {
     <>
       {/* always display nav bar */}
       <Nav />
+      {/* set margin for content */}
+    <div className="content" style={{margin: '2%'}}>
       {/* set routes for pages */}
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
+    </div>
     </>
   );
 }

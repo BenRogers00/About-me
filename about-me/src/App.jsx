@@ -8,7 +8,9 @@ import Nav from "./modules/nav";
 function App() {
   return (
     <>
+    {/* always display nav bar */}
     <Nav />
+    {/* set routes for pages */}
       <nav>
         <Routes>
           <Route path="/" element={<Home />} />
